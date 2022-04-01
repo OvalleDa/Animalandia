@@ -1,5 +1,7 @@
-body{
-    background-color: rgb(247, 215, 220);
+
+
+h1, h3{
+    text-align: center;
 }
 
 .bg-light {
@@ -21,6 +23,18 @@ body{
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
     color: rgb(255 253 253 / 90%);
 }  
+
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    /* line-height: 1; */
+    background-color: rgb(0 178 177);
+    border: 1px solid #00b2b1;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
 
 .btn-outline-success {
     color: #f8f8f8;
@@ -76,14 +90,32 @@ nav {
     background-image: url(../img/fondo.jpg);
 }
 
+.agendita{
+    display: flex;
+    justify-content: center;
+}
+
 .promocion{
     margin-top: 20px;
     background-color: rgb(117, 41, 149);
 }
 
+#gratis{
+    color:rgb(255, 255, 255);
+}
+
+#gratis img{
+    border-radius: 150px;
+    border: 7px solid rgb(0, 0, 0);
+}
+.ah{
+    background-color: rgb(255, 255, 255);
+}
+
 .cards{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -96,4 +128,27 @@ nav {
     margin-left: 20px;
     border: none;
     margin-right: 20px;
+}
+
+.footer{
+    background-image: url(../img/fondo.jpg);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.foot{
+    background-color: rgba(117, 41, 149, 0.404);
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+.doctor h3{
+    color: rgb(117, 41, 149);
+}
+
+.doctor img{
+    width: 50%;
 }
