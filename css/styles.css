@@ -152,3 +152,27 @@ nav {
 .doctor img{
     width: 50%;
 }
+
+#services{
+    display: flex;
+    margin: 3em;
+}
+
+
+.service{
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.img-service{
+    margin-right: 1em;
+}
+
+.text-service p{
+
+}
+.text-service h3{
+    color: var(--dark-color);
+    font-size: 22px;
+}
