@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/dash.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Productos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="row align-items-center">
+            <div class=" col-6 col-sm-6 col-md-7 col-lg-5 col-xl-5 col-xxl-8" >
+                <a href="index.html"><img src="img/logo.jpg" class="img-fluid"></a>
+            </div>
+            <div class="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-5 col-xxl-2"></div>
+            <div class="col-5 col-sm-5 col-md-4 col-lg-3 col-xl-2 col-xxl-2">
+                <a href="login.html"><button type="button" class="btn btn-primary"><i class="bi bi-box-arrow-in-right"></i> Cerrar Sesión</button></a>
+            </div>
+        </header>
+    </div>
+<section id="dashboard">
+    <article class="menuone">
+        <ul>
+            <li class="itemone"><a href="usuario.html"><i class="fa-solid fa-user"></i>Usuarios</a></li>
+            <li class="itemone"><a href="clientes.html"><i class="fa-solid fa-users"></i>Clientes</a></li>
+            <li class="itemone"><a href="producto.html"><i class="fa-solid fa-tag"></i>Producto</a></li>
+            <li class="itemone"><a href="pedidos/"><i class="fa-solid fa-cart-shopping"></i>Pedidos</a></li>
+            <li class="itemone"><a href=reportes.html><i class="fa-solid fa-arrow-trend-up"></i>Repotes</a></li>
+            <li class="itemone"><a href="login.html"><i class="fa-solid fa-arrow-trend-up"></i>Cerrar Sesión</a></li>
+        </ul>
+    </article>
+    <article class="contenido">
+        <h1>Gestión de Productos</h1>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">ID</label>
+            <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Id del producto">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Nombre de producto</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Precio</label>
+            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Precio del Producto">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Categoría</label>
+            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Categoría del Producto">
+          </div>
+      
+        <a href="producto.html"><button type="button" class="btn btn-outline-success"><i class="bi bi-patch-check-fill"></i> Guardar cambios</button></a>
+</section>
+        </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
