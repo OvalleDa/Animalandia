@@ -165,3 +165,48 @@ table td{
   font-size: 1rem;
   border-radius: 5px;
 } 
+
+.table-success {
+  --bs-table-bg: #75299560;
+  --bs-table-striped-bg: #00b2b29d;
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: #bcd0c7;
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: #c1d6cc;
+  --bs-table-hover-color: #000;
+  color: #000;
+  border-color: #c4bcd0;
+}
+
+.btn-outline-success {
+  color: #000000;
+  border-color: #510058;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color:#510058;
+  border-color: #ffffff;
+}
+.btn-primary {
+  color: #fff;
+  background-color:rgb(117,41,149);
+  border-color: rgb(255, 252, 252);
+}
+
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(0, 178, 177);
+  border-color: rgb(0, 178, 177);
+}    
+
+.btn-outline-secondary {
+  color: #ffffff;
+  border-color:#C4A7D0;
+  background-color: #C4A7D0;
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #4BAEBE;
+  border-color: #6c757d;
+}
